@@ -69,6 +69,12 @@ spec:
       - "Repository"
       clusters:
       - "*"
+    - apiGroups:
+      - "primaza.io"
+      kinds:
+      - "*"
+      clusters:
+      - "*"
   applicationSet:
     resources:
       limits:
